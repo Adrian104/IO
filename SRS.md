@@ -43,11 +43,36 @@ TODO: podzielić na klienta i biznesowe
 # Atrybuty jakościowe
 
 ## Przystępność (accesibility)
+Przystępność oznacza tworzenie oprogramowania w taki sposób, aby było ono zdatne do użytku przez jak największą grupę ludzi, w szczególności przez osoby z niepełnosprawnościami.
+
+Ponieważ celem naszego projektu jest zbudowanie platformy do dzielenia się wiedzą i rozwijania swojej pasji z dziedziny informatyki, a więc dziedziny, która jest możliwa do wykonywania bez większych problemów również przez osoby z niepełnosprawnościami, chcemy oferować szereg opcji, które zapewnią że nasza strona będzie przystępna i wygodna do korzystania przez jak największą ilość ludzi.
+
 ## Bezpieczeństwo (security)
+Bezpieczeństwo to zdolność systemu do zmniejszenia ryzyka złośliwych lub przypadkowych działań poza zaprojektowanymi funkcjonalnościami oprogramowania oraz zapobiegania ujawnieniu lub utracie informacji.
+
+Chcemy, aby dane naszych użytkowników, takie jak hasła i loginy były zabezpieczone przed możliwością wykradnięcia ich. Dodatkowo usprawnienie zabezpieczeń zmniejszy szanse powodzenia ataków, które mogłyby spowolnić lub zatrzymać działalność naszego systemu.
+
 ## Skalowalność (scalability)
+Skalowalność jest atrybutem, który zakłada, że wraz ze wrostem aktywności oraz ilości użytkowników naszej aplikacji, nasze oprogamowanie nadal będzie zdolne do sprawnego działania.
+
+Jako iż nasz projekt za zadanie ma oferować platformę do komunikacji między wieloma użytkownikami, których ilość z biegiem czasu będzie wzrastała, powinniśmy zagwarantować możliwość rozbudowy naszego systemu w taki sposób, aby był w stanie przyjąć narastające obciążenia.
+
 ## Łatwość w zarządzaniu (manageability)
+Łatwość w zarządzaniu określa jak łatwo jest administratorowi zarządzać aplikacją, zazwyczaj poprzez wyodrębnienie przez system wystarczających i użytecznych narzędzi i danych.
+
+Jako forum będziemy musieli moderować treści publikowane przez naszych użytkowników, dlatego musimy zapewnić, aby system zapewniał nam szereg wystarczających informacji i narzędzi, które pozwolą nam stworzyć funkcjonalności zdolne do efektywnego zarządzania użytkownikami.
 
 # Ograniczenia w projekcie
 ## Technologiczne
+* Zabezpieczenie danych użytkowników
+* Zaplecze technologiczne do ewentualnej rozbudowy, w celu zapewnienia skalowalności
+* Projekt wymaga integracji z bazą danych do przechowywania danych użytkowników, jak i wpisów na forum
+
 ## Organizacyjne
+* Posiadania stałego zespołu zajmującego się moderacją forum.
+* Niewielki zespół deweloperski
+* Wymagania funkcjonalne nie adresują wszystkich celów projektowych (np. reklama marki)
+
 ## Środowiskowe
+* Problemy z przestrzeganiem regulacji dotyczących moderacji treści czy praw autorskich
+* Brak kontroli nad zachowaniem użytkowników, potrzeba moderacji treści
