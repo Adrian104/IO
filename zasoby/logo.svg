@@ -35,7 +35,13 @@
      id="defs1" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
+     id="layer1"><rect
+       style="font-variation-settings:'wdth' 99.7, 'wght' 469;fill:#0d1117;stroke-width:1.5;stroke-miterlimit:10;paint-order:stroke fill markers;fill-opacity:1"
+       id="rect1"
+       width="846.66663"
+       height="317.5"
+       x="0"
+       y="0" /><g
        inkscape:label="Layer 1"
        id="layer1-8"
        transform="matrix(7.2511261,0,0,7.2511261,-74.473956,1.0718846)"><path
