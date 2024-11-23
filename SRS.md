@@ -18,24 +18,56 @@ Celem naszego projektu jest stworzenie forum internetowego, skupiającego się w
 * **Ułatwienie dostępu do informacji** - dzięki zaawansowanemu silnikowi do wyszukiwania postów na podstawie tagów, użytkownicy oszczędzą średnio 6 minut dziennie podczas korzystania z naszego forum, w porównaniu do Reddita.
 
 # Wymagania funkcjonalne
+
 ## Tworzenie nowych kont
 ### User story
-### Kryteria akceptacji
+Jako użytkownik z dostępem do Internetu, chcę mieć możliwość utworzenia konta na forum. Zależy mi, aby dane które podam, takie jak np. hasła były bezpiecznie przetwarzane.
+### Warunki początkowe
+* Użytkownik nie ma konta na naszym forum (tzn. w bazie danych nie ma konta o podanym adresie e-mail).
+* Wprowadzone hasło składa się z minimum 8 znaków i co najmniej jednej cyfry.
+* Użytkownik zapoznał się z regulaminem RODO i regulaminem forum.
+### Warunki końcowe
+* System tworzy konto na podstawie wprowadzonych danych. Przetwarzanie informacji powinno być bezpieczne.
+* System wysyła wiadomość na wskazany adres mailowy z powitaniem.
+* Następuje automatyczne zalogowanie na forum.
+
 ## Logowanie
 ### User story
-### Kryteria akceptacji
+Jako użytkownik posiadający konto na IT-forum.net, chcę mieć możliwość logowania się.
+### Warunki początkowe
+* W systemie istnieje konto o wskazanym adresie e-mail.
+* Użytkownik nie został zbanowany.
+* Użytkownik podał poprawne hasło.
+### Warunki końcowe
+* Zalogowanie użytkownika do systemu.
+* Automatyczne przekierowanie na stronę główną IT-forum.net.
+
 ## Dodawanie postów
 ### User story
-### Kryteria akceptacji
+Jako zalogowany użytkownik, chcę mieć możliwość dodawania postów na forum. Oczekuję, że po wprowadzeniu wiadomości, post będzie publiczny.
+### Warunki początkowe
+* Użytkownik jest zalogowany.
+* Użytkownik nie przekroczył dziennego limitu utworzonych postów (zabezpieczenie przed spamem).
+* Użytkownik wpisał minimum 20 znaków treści posta, wybrał odpowiednie tagi i zatwierdził publikację.
+* Post jest zgodny z regulaminem.
+### Warunki końcowe
+* Post zostaje zapisany do bazy danych.
+* Na stronie internetowej, post pojawia się nie później niż minutę po jego dodaniu.
+
 ## Dodawanie odpowiedzi do postów
 ### User story
-### Kryteria akceptacji
+### Warunki początkowe
+### Warunki końcowe
+
 ## Przeglądanie postów
 ### User story
-### Kryteria akceptacji
+### Warunki początkowe
+### Warunki końcowe
+
 ## Wyszukiwanie postów
 ### User story
-### Kryteria akceptacji
+### Warunki początkowe
+### Warunki końcowe
 
 # Atrybuty jakościowe
 
