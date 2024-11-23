@@ -82,7 +82,7 @@ Bezpieczeństwo to zdolność systemu do zmniejszenia ryzyka złośliwych lub pr
 Chcemy, aby dane naszych użytkowników, takie jak hasła i loginy były zabezpieczone przed możliwością wykradnięcia ich. Dodatkowo usprawnienie zabezpieczeń zmniejszy szanse powodzenia ataków, które mogłyby spowolnić lub zatrzymać działalność naszego systemu.
 
 ## Skalowalność (scalability)
-Skalowalność jest atrybutem, który zakłada, że wraz ze wrostem aktywności oraz ilości użytkowników naszej aplikacji, nasze oprogamowanie nadal będzie zdolne do sprawnego działania.
+Skalowalność jest atrybutem, który zakłada, że wraz ze wzrostem aktywności oraz ilości użytkowników naszej aplikacji, nasze oprogramowanie nadal będzie zdolne do sprawnego działania.
 
 Jako iż nasz projekt za zadanie ma oferować platformę do komunikacji między wieloma użytkownikami, których ilość z biegiem czasu będzie wzrastała, powinniśmy zagwarantować możliwość rozbudowy naszego systemu w taki sposób, aby był w stanie przyjąć narastające obciążenia.
 
