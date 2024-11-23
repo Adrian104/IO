@@ -1,24 +1,21 @@
 ![](zasoby/logo.svg)
 
-# Specyfikacja Projektu (SRS)
-
-TODO: Informacja wstępna.
-
 # Misja projektu
 
-TODO: Wymyśleć coś.
+Naszym celem jest stworzenie otwartej i wspierającej społeczności, która będzie dzielić się wiedzą i doświadczeniami ze świata IT. Wartości takie jak szacunek, współpraca i innowacyjność są dla nas kluczowe, a nasze forum ma na celu zaspokajanie potrzeb naszych użytkowników, oferując im bezpieczną i przyjazną przestrzeń do dyskusji.
 
 # Krótki opis
 
-Celem naszego projektu jest stworzenie forum internetowego, skupiającego się wokół tematu informatyki. Użytkownicy będą w stanie prowadzić dyskusje, tworzonych przez nich postach. Użytkownicy będą również mogli grupować posty według tagów. Aplikacja będzie w pełni internetowa. Każdy będzie mógł stworzyć swoje konto, wystarczy połączenie z Internetem.
+Celem naszego projektu jest stworzenie forum internetowego, skupiającego się wokół tematu informatyki. Użytkownicy będą mogli prowadzić dyskusje, odpowiadać na pytania, głosować w ankietach i wiele więcej. Posty będą grupowane według tagów, co ułatwi wyszukiwanie. Aplikacja będzie w pełni internetowa. Każdy będzie mógł stworzyć swoje konto, wystarczy połączenie z Internetem.
 
-# Cele
-TODO: podzielić na klienta i biznesowe
-* Reklama marki - dopisać konkrety
-* Zachęcenie potencjalnych kandydatów do zatrudnienia się w naszej firmie - wynika z poprzedniego punktu
-* Usprawnienie komunikacji pomiędzy użytkownikami - dopisać konkrety
-* Zwiększenie liczby wykwalifikowanych specjalistów - dopisać konkrety
-* Ułatwienie dostępu do informacji dzięki zaawansowanemu silnikowi do wyszukiwania postów na podstawie tagów - dopisać konkrety
+# Cele biznesowe
+* **Reklama marki** - na stronie będzie znajdowało się logo przedsiębiorstwa. Im popularniejsze forum, tym więcej użytkowników zapamięta to logo, co przełoży się na zwiększoną rozpoznawalność marki. Po dwóch latach, liczba zapytań do wyszukiwarki Google odnośnie przedsiębiorstwa powinna wzrosnąć o minimum 300% (można to mierzyć za pomocą Google Trends).
+* **Zachęcenie do zatrudnienia się** - wysoka rozpoznawalność marki powinna przełożyć się na zwiększenie liczby otrzymywanych CV od potencjalnych przyszłych pracowników o minimum 50%.
+* **Podniesienie kompetencji** - na forum będą działać grupy badawcze i koła naukowe. Przełoży się to na zwiększenie kompetencji specjalistów, co pozwoli oszczędzić 15% kosztów wydawanych do tej pory na szkolenia (wewnątrz firmy).
+
+# Cele klienta
+* **Usprawnienie komunikacji** - użytkownicy będą mogli w bardzo prosty sposób wymieniać informacje ze sobą, uzyskiwać cenne wskazówki i porady. Pozwoli to zachęcić użytkowników do studiowania informatyki o minimum 5%.
+* **Ułatwienie dostępu do informacji** - dzięki zaawansowanemu silnikowi do wyszukiwania postów na podstawie tagów, użytkownicy oszczędzą średnio 6 minut dziennie podczas korzystania z naszego forum, w porównaniu do Reddita.
 
 # Wymagania funkcjonalne
 ## Tworzenie nowych kont
