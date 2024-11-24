@@ -56,18 +56,39 @@ Jako zalogowany użytkownik, chcę mieć możliwość dodawania postów na forum
 
 ## Dodawanie odpowiedzi do postów
 ### User story
+Jako zalogowany użytkownik, chcę mieć możliwość dodawania odpowiedzi do postów, aby uczestniczyć w dyskusji i dzielić się swoimi opiniami.
 ### Warunki początkowe
+* Użytkownik jest zalogowany.
+* Użytkownik nie przekroczył dziennego limitu utworzonych odpowiedzi (zabezpieczenie przed spamem).
+* Istnieje post na który można odpowiedzieć.
+* Użytkownik uzupełnił treść odpowiedzi i zatwierdził publikację.
 ### Warunki końcowe
+* Nowa odpowiedź zostaje dodana do postu i wyświetlona w sekcji odpowiedzi.
+* Odpowiedź jest dostępna dla innych użytkowników do przeglądania nie później niż minutę po dodaniu.
+
 
 ## Przeglądanie postów
 ### User story
+Jako użytkownik, chcę mieć możliwość przeglądania postów opublikowanych na forum.
 ### Warunki początkowe
+* Forum posiada przynajmniej jeden opublikowany post.
+* Użytkownik wybiera interesujący go post z dostępnej listy.
 ### Warunki końcowe
+* Następuje przekierowanie użytkownika na stronę postu.
+* Wyświetlana jest treść postu, odpowiedzi do niego (jeżeli istnieją) oraz metadane postu takie jak autor, data publikacji czy tagi.
+
 
 ## Wyszukiwanie postów
 ### User story
+Jako użytkownik, chcę mieć możliwość wyszukiwania postów na forum. Zależy mi na tym, aby wyszukiwarka dawała mi opcję do wyszukiwania postów według różnych kryteriów.
 ### Warunki początkowe
+* Forum posiada przynajmniej jeden opublikowany post.
+* Użytkownik może wybrać różne kryteria wyszukiwania (np.: wyszukiwanie po tagach, wyszukiwanie po treści posta), domyślnie wyszukiwanie po tytule posta.
+* Użytkownik wypełnia pole wyszukiwania.
 ### Warunki końcowe
+* System wyświetla listę wyników odpowiadających zastosowanym kryteriom wyszukiwania.
+* Wyniki domyślnie są posortowane według daty.
+* Użytkownik ma możliwość przeglądania wybranego postu z listy wyników.
 
 # Atrybuty jakościowe
 
