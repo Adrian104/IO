@@ -9,9 +9,9 @@ Naszym celem jest stworzenie otwartej i wspierającej społeczności, która bę
 Celem naszego projektu jest stworzenie forum internetowego, skupiającego się wokół tematu informatyki. Użytkownicy będą mogli prowadzić dyskusje, odpowiadać na pytania, głosować w ankietach i wiele więcej. Posty będą grupowane według tagów, co ułatwi wyszukiwanie. Aplikacja będzie w pełni internetowa. Każdy będzie mógł stworzyć swoje konto, wystarczy połączenie z Internetem.
 
 # Cele biznesowe
-* **Reklama marki** - na stronie będzie znajdowało się logo przedsiębiorstwa. Im popularniejsze forum, tym więcej użytkowników zapamięta to logo, co przełoży się na zwiększoną rozpoznawalność marki. Po dwóch latach, liczba zapytań do wyszukiwarki Google odnośnie przedsiębiorstwa powinna wzrosnąć o minimum 300% (można to mierzyć za pomocą Google Trends).
+* **Reklama marki** - na stronie będzie znajdowało się logo przedsiębiorstwa. Im popularniejsze forum, tym więcej użytkowników zapamięta to logo, co przełoży się na zwiększoną rozpoznawalność marki. Po dwóch latach, liczba zapytań do wyszukiwarki Google odnośnie przedsiębiorstwa powinna wzrosnąć o minimum 300%.
 * **Zachęcenie do zatrudnienia się** - wysoka rozpoznawalność marki powinna przełożyć się na zwiększenie liczby otrzymywanych CV od potencjalnych przyszłych pracowników o minimum 50%.
-* **Podniesienie kompetencji** - na forum będą działać grupy badawcze i koła naukowe. Przełoży się to na zwiększenie kompetencji specjalistów, co pozwoli oszczędzić 15% kosztów wydawanych do tej pory na szkolenia (wewnątrz firmy).
+* **Podniesienie kompetencji** - przewidujemy, że na forum będą działać grupy badawcze i koła naukowe. Przełoży się to na zwiększenie kompetencji specjalistów, co pozwoli oszczędzić 15% kosztów wydawanych do tej pory na szkolenia (wewnątrz firmy).
 
 # Cele klienta
 * **Usprawnienie komunikacji** - użytkownicy będą mogli w bardzo prosty sposób wymieniać informacje ze sobą, uzyskiwać cenne wskazówki i porady. Pozwoli to zachęcić użytkowników do studiowania informatyki o minimum 5%.
@@ -21,7 +21,7 @@ Celem naszego projektu jest stworzenie forum internetowego, skupiającego się w
 
 ## Tworzenie nowych kont
 ### User story
-Jako użytkownik z dostępem do Internetu, chcę mieć możliwość utworzenia konta na forum. Zależy mi, aby dane które podam, takie jak np. hasła były bezpiecznie przetwarzane.
+Jako użytkownik z dostępem do Internetu, chcę mieć możliwość utworzenia konta na forum.
 ### Warunki początkowe
 * Użytkownik nie ma konta na naszym forum (tzn. w bazie danych nie ma konta o podanym adresie e-mail).
 * Wprowadzone hasło składa się z minimum 8 znaków i co najmniej jednej cyfry.
@@ -33,7 +33,7 @@ Jako użytkownik z dostępem do Internetu, chcę mieć możliwość utworzenia k
 
 ## Logowanie
 ### User story
-Jako użytkownik posiadający konto na IT-forum.net, chcę mieć możliwość logowania się.
+Jako użytkownik posiadający konto na IT-forum.net, chcę mieć możliwość logowania się, aby uzyskać dostęp do rozszerzonych funkcjonalności forum.
 ### Warunki początkowe
 * W systemie istnieje konto o wskazanym adresie e-mail.
 * Użytkownik nie został zbanowany.
@@ -114,7 +114,6 @@ Jako forum będziemy musieli moderować treści publikowane przez naszych użytk
 
 # Ograniczenia w projekcie
 ## Technologiczne
-* Zabezpieczenie danych użytkowników
 * Zaplecze technologiczne do ewentualnej rozbudowy, w celu zapewnienia skalowalności
 * Projekt wymaga integracji z bazą danych do przechowywania danych użytkowników, jak i wpisów na forum
 
