@@ -3,4 +3,5 @@
 # Projekt forum internetowego
 Niniejsze repozytorium zawiera dokumentację projektu. Poniżej znajdują się linki:
 
-[Specyfikacja Projektu](SRS.md)
+[Specyfikacja Projektu](SRS.md)  
+[Przypadki Użycia](UseCases.md)
