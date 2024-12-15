@@ -13,8 +13,14 @@
 * Blokowanie konta przez moderatora
 * Usuwanie konta
 
+## Tworzenie nowych kont
+![](zasoby/przypadki-użycia/rejestracja.svg)
+
 ## Logowanie
 ![](zasoby/przypadki-użycia/logowanie.svg)
+
+## Dodawanie postów
+![](zasoby/przypadki-użycia/dodawanie-postu.svg)
 
 ## Dodawanie odpowiedzi do postów
 ![](zasoby/przypadki-użycia/odpowiedzi.svg)
