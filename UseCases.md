@@ -1,6 +1,6 @@
 ![](zasoby/logo.svg)
 
-# Przypadki użycia - spis
+# Przypadki użycia
 
 * Tworzenie nowych kont
 * Logowanie
@@ -13,4 +13,8 @@
 * Blokowanie konta przez moderatora
 * Usuwanie konta
 
-# Schematy
+## Logowanie
+![](zasoby/przypadki-użycia/logowanie.svg)
+
+## Dodawanie odpowiedzi do postów
+![](zasoby/przypadki-użycia/odpowiedzi.svg)
