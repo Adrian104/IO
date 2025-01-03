@@ -24,3 +24,12 @@
 
 ## Dodawanie odpowiedzi do postów
 ![](zasoby/przypadki-użycia/odpowiedzi.svg)
+
+## Wyszukiwanie postów
+![](zasoby/przypadki-użycia/wyszukiwanie.svg)
+
+## Usuwanie postów przez moderatora
+![](zasoby/przypadki-użycia/usuwanie-postu.svg)
+
+## Usuwanie konta
+![](zasoby/przypadki-użycia/usuwanie-konta.svg)
